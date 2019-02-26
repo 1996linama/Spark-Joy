@@ -8,7 +8,14 @@ body {
 .card {
     color: #fff;
     margin: 0 auto;
+    background-color: #464343;
 }
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none;
+ }
+
 
 h1#site_title {
     margin-top: 50px;

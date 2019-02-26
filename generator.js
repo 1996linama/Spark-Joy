@@ -18,7 +18,7 @@ var inspire_content = [
     {
         "theme": "Listen to Bob Ross.",
         "picture": "4.jpg",
-        "quote": "Growth cannot be measured only by success.",
+        "quote": "Growth cannot be only measured by success.",
         "credit": ""
     },
     {
@@ -37,6 +37,12 @@ var inspire_content = [
         "theme": "Happy thoughts",
         "picture": "6.jpg",
         "quote": "",
+        "credit": "artist @chibird"
+    },
+    {
+        "theme": "You can",
+        "picture": "7.jpg",
+        "quote": "Give yourself a chance.",
         "credit": "artist @chibird"
     }
 ];
@@ -60,6 +66,7 @@ function getMotivationalQuote(){
     $('#title').html(inspire_content[index].theme);
     $('#content').html(inspire_content[index].quote);
     $('#image').attr('src', "resources/"+ inspire_content[index].picture);
+    $('#credits').html(inspire_content[index].credit);
     index++;
 }
 
