@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+body {
+    background: #eeeeee;
+    color: #333;
+}
+
+.card {
+    color: #fff;
+    margin: 0 auto;
+}
+
+h1#site_title {
+    margin-top: 50px;
+    color: #f7b733;
+    font-weight: 400;
+    font-family: Fredoka One;
+}
+
+h3 {
+    margin-top: auto;
+}
+
+h5#title{
+    color: #f7b733;
+}
