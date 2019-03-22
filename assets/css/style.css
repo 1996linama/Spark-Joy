@@ -1,33 +1,44 @@
-@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One");
+
+html {
+}
 
 body {
-    background: #eeeeee;
-    color: #333;
+  background: #eeeeee;
+  color: #333;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .card {
-    color: #fff;
-    margin: 0 auto;
-    background-color: #464343;
+  color: #fff;
+  margin: 0 auto;
+  background-color: #464343;
 }
 
 .btn:focus {
-    outline: none !important;
-    box-shadow: none;
- }
-
+  outline: none !important;
+  box-shadow: none;
+}
 
 h1#site_title {
-    margin-top: 50px;
-    color: #f7b733;
-    font-weight: 400;
-    font-family: Fredoka One;
+  margin-top: 50px;
+  color: #f7b733;
+  font-weight: 400;
+  font-family: Fredoka One;
 }
 
 h3 {
-    margin-top: auto;
+  margin-top: auto;
 }
 
-h5#title{
-    color: #f7b733;
+h5#title {
+  color: #f7b733;
 }
+
+img {
+  display: none;
+}
+
+

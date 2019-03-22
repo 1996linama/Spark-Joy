@@ -1,5 +1,8 @@
 $(document).ready(function () {
     $("#generate").click(function (){
+        $("img").css({
+            display: "inline-block"
+        })
         if(index < inspire_content.length){
             getMotivationalQuote();
         } else {
