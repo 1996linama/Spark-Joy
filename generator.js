@@ -11,44 +11,10 @@ $(document).ready(function () {
     });
 });
 
-var inspire_content = [
-    {
-        "theme": "Self-love",
-        "picture": "1.jpg",
-        "quote": "The purpose of life is to know yourself and love.",
-        "credit": ""}
-    ,
-    {
-        "theme": "Listen to Bob Ross.",
-        "picture": "4.jpg",
-        "quote": "Growth cannot be only measured by success.",
-        "credit": ""
-    },
-    {
-        "theme": "Be a porcupine",
-        "picture": "5.jpg",
-        "quote": "Remember that bad times.. are just times that are bad.",
-        "credit": "artist @chibird"
-    },
-    {
-        "theme": "Acceptance",
-        "picture": "2.jpg",
-        "quote": "",
-        "credit": ""
-    },
-    {
-        "theme": "Happy thoughts",
-        "picture": "6.jpg",
-        "quote": "",
-        "credit": "artist @chibird"
-    },
-    {
-        "theme": "You can",
-        "picture": "7.jpg",
-        "quote": "Give yourself a chance.",
-        "credit": "artist @chibird"
-    }
-];
+var inspire_content = new Array();
+fetch('inspire_content.json')
+.then(data => data.json())
+.then(data => inspire_content = data);
 
 function shuffleSequence(){
     let i = inspire_content.length;
